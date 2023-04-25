@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/title_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="병 원 소 개"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_info"
+        android:layout_width="wrap_content"
+        android:layout_height="440dp"
+        android:layout_below="@id/title_info"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/info1" />
+
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_info"
+        android:layout_marginVertical="10dp"
+        android:text="30318허재" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_info"
+        android:layout_alignParentEnd="true"
+        android:text="뒤로" />
+
+</RelativeLayout>

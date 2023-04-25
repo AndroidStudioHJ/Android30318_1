@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".tableLayout">
+
+    <TableRow>
+
+        <Button android:text="성명" />
+
+        <Button android:text="국어" />
+
+        <Button android:text="수학" />
+
+        <Button android:text="총점" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:text="홍길동" />
+
+        <TextView
+            android:gravity="center"
+            android:text="90" />
+
+        <TextView
+            android:gravity="center"
+            android:text="80" />
+
+        <TextView
+            android:gravity="center"
+            android:text="70" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:text="이순신" />
+
+        <TextView
+            android:gravity="center"
+            android:text="80" />
+
+        <TextView
+            android:gravity="center"
+            android:text="100" />
+
+        <TextView
+            android:gravity="center"
+            android:text="180" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="3"
+            android:gravity="center"
+            android:text="합계" />
+
+        <TextView
+            android:gravity="center"
+            android:text="350" />
+    </TableRow>
+
+</TableLayout>
