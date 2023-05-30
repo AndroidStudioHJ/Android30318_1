@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -39,7 +40,7 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/consulting"
+        android:id="@+id/edit_consulting"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:background="@color/mint"
@@ -58,6 +59,15 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink"
+        android:drawableRight="@drawable/phone_ic"
+        android:text="문자전송"
+        tools:ignore="DuplicateIds" />
 
     <Button
         android:id="@+id/btn_request"
