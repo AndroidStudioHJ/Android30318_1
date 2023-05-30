@@ -15,7 +15,13 @@ public class GuideActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guide);
 
-
+        findViewById(R.id.img_map).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=서울로봇고"));
+                startActivity(intent);
+            }
+        });
     }
 
 
